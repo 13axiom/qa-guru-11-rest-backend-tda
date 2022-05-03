@@ -15,12 +15,12 @@ import static io.restassured.RestAssured.with;
 public class BankControllerTest {
 
     static {
-        RestAssured.baseURI = "http://localhost:8080";
+        RestAssured.baseURI = "http://localhost:2020";
     }
 
     private RequestSpecification spec =
             with()
-                    .baseUri("http://localhost:8080")
+                    .baseUri("http://localhost:2020")
                     .basePath("/");
 
     @Test

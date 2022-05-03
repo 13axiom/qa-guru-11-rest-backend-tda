@@ -11,10 +11,10 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 @SpringBootApplication
-public class RestbackendApplication {
+public class RestBackendApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RestbackendApplication.class, args); //в java приложениях дб метод мейн, это точка входа, зупускающая приложение
+        SpringApplication.run(RestBackendApplication.class, args);
     }
 
     @Bean
